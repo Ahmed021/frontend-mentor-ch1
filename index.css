@@ -1,18 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 body {
   background-color: hsl(212, 45%, 89%);
+  font-family: Outfit, sans-serif;
 }
 
 div {
   background-color: white;
-  width: 500px;
-  height: 500px;
-  margin: 100px auto;
+  width: 400px;
+  height: 80vh;
+  margin: 4% auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  border-radius: 20px;
 }
 
 img {
-  width: 300px;
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
 }
 
 p {
+  color: hsl(212, 15%, 48%);
   padding: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  div {
+    margin: 22% auto;
+    height: 75vh;
+  }
 }
